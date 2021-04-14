@@ -17,6 +17,7 @@
   "homepage": "https://github.com/melireddy/Etch-a-Sketch#readme",
   "devDependencies": {
     "jest": "^26.6.3"
+    
   },
   "dependencies": {},
   "description": ""
