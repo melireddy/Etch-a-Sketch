@@ -17,4 +17,3 @@ install:
 - npm install
 script:
 - jest --ci --coverage && coveralls
-- npm run coveralls
