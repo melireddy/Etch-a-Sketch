@@ -10,6 +10,7 @@ cache:
   - node_modules
 before_install:
 - npm install coveralls --save-dev
+- npm i jest --save-dev
 - npm update
 install:
 - npm install
