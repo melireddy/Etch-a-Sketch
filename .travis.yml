@@ -9,9 +9,9 @@ cache:
   directories:
   - node_modules
 before_install:
+- npm install coveralls --save-dev
 - npm update
 install:
-- npm install coveralls --save-dev
 - npm install
 script:
 - npm test
