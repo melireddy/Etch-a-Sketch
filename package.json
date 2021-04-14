@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "body.js",
+  "scripts": {
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melireddy/Etch-a-Sketch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melireddy/Etch-a-Sketch/issues"
+  },
+  "homepage": "https://github.com/melireddy/Etch-a-Sketch#readme"
+}
