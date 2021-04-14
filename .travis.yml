@@ -16,4 +16,4 @@ before_install:
 install:
 - npm install
 script:
-- jest --ci --coverage && coveralls
+- jest --coverage && coveralls < coverage/lcov.info
